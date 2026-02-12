@@ -8,7 +8,7 @@ Bu rehber, projenin gerçek bir sunucuda (Production) nasıl yayınlanacağını
 
 ---
 
-## � Veritabanı Hakkında (Önemli)
+## 📦 Veritabanı Hakkında (Önemli)
 
 **Müjde!** Bu proje şu anda "Dosya Tabanlı (JSON)" bir veritabanı sistemi kullanmaktadır.
 Yani verileriniz `apps/web/src/lib/data` klasöründeki dosyalarda saklanır.
@@ -19,7 +19,28 @@ Bu sayede:
 
 ---
 
-## �🚀 Seçenek 1: Vercel ile 2 Dakikada Yayına Alma (En Kolay)
+## 🔑 Admin Paneli ve İçerik Yönetimi
+
+Sitenizin içeriklerini (Projeler, Blog, Hizmetler vb.) yönetmek için hazır bir Admin Paneli bulunmaktadır.
+
+- **Giriş Adresi:** `http://alanadiniz.com/admin` (veya `localhost:3000/admin`)
+- **Varsayılan Kullanıcı Adı:** `admin`
+- **Varsayılan Şifre:** `bosna2025`
+
+> **Güvenlik Uyarısı:** Bu şifreyi değiştirmek için sunucudaki `.env` dosyasına şu satırları ekleyin:
+> ```env
+> ADMIN_USERNAME=yeni_kullanici_adi
+> ADMIN_PASSWORD=yeni_guclu_sifre
+> ```
+
+### ⚠️ Önemli: Çalışma Mantığı (Local vs Sunucu)
+Admin paneli **dosya tabanlı** çalıştığı için verileri doğrudan sunucudaki dosyalara yazar.
+- **ÖNERİLEN YÖNTEM:** İçerik girişlerini **kendi bilgisayarınızda (Local)** yapın. Sonra `git push` ile GitHub'a ve oradan sunucuya gönderin. Böylece yedeğiniz olur.
+- **ALTERNATİF:** Sunucuda doğrudan düzenleme yapabilirsiniz. Ancak daha sonra bilgisayarınızdan kod gönderirken "git conflict" (çakışma) yaşamamak için dikkatli olmalısınız.
+
+---
+
+## 🚀 Seçenek 1: Vercel ile 2 Dakikada Yayına Alma (En Kolay)
 
 Eğer Next.js projenizi en hızlı ve sorunsuz şekilde yayınlamak istiyorsanız Vercel en iyi seçenektir.
 
