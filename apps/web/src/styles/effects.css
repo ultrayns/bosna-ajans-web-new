@@ -1,0 +1,207 @@
+/**
+ * Soft Shadow and Premium Blur Effects System
+ * Adds premium glassmorphism and shadow utilities
+ */
+
+/* ========================================
+   SOFT SHADOWS
+   ======================================== */
+
+/* Subtle elevation shadows */
+.shadow-soft-xs {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.shadow-soft-sm {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04), 0 3px 6px rgba(0, 0, 0, 0.06);
+}
+
+.shadow-soft {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.04), 0 6px 12px rgba(0, 0, 0, 0.06), 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+.shadow-soft-md {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05), 0 8px 24px rgba(0, 0, 0, 0.08), 0 16px 48px rgba(0, 0, 0, 0.06);
+}
+
+.shadow-soft-lg {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.06), 0 16px 32px rgba(0, 0, 0, 0.08), 0 24px 64px rgba(0, 0, 0, 0.08);
+}
+
+.shadow-soft-xl {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08), 0 24px 48px rgba(0, 0, 0, 0.1), 0 32px 80px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark mode soft shadows */
+.dark .shadow-soft-xs {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.dark .shadow-soft-sm {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.dark .shadow-soft {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 12px rgba(0, 0, 0, 0.15), 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.dark .shadow-soft-md {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25), 0 8px 24px rgba(0, 0, 0, 0.2), 0 16px 48px rgba(0, 0, 0, 0.15);
+}
+
+.dark .shadow-soft-lg {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 16px 32px rgba(0, 0, 0, 0.25), 0 24px 64px rgba(0, 0, 0, 0.2);
+}
+
+.dark .shadow-soft-xl {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35), 0 24px 48px rgba(0, 0, 0, 0.3), 0 32px 80px rgba(0, 0, 0, 0.25);
+}
+
+/* ========================================
+   GLASSMORPHISM / BLUR EFFECTS
+   ======================================== */
+
+.glass {
+    background: rgba(255, 255, 255, 0.1);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-light {
+    background: rgba(255, 255, 255, 0.7);
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.glass-dark {
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-subtle {
+    background: rgba(255, 255, 255, 0.05);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+
+.glass-intense {
+    background: rgba(255, 255, 255, 0.15);
+    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Theme transition overlays */
+.theme-overlay-dark {
+    background: radial-gradient(circle at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.theme-overlay-light {
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+/* ========================================
+   GLOW EFFECTS
+   ======================================== */
+
+.glow-sm {
+    box-shadow: 0 0 8px rgba(var(--color-forest), 0.3);
+}
+
+.glow {
+    box-shadow: 0 0 16px rgba(var(--color-forest), 0.4);
+}
+
+.glow-lg {
+    box-shadow: 0 0 24px rgba(var(--color-forest), 0.5);
+}
+
+.glow-oxide {
+    box-shadow: 0 0 16px rgba(var(--color-oxide), 0.4);
+}
+
+/* ========================================
+   THEME TRANSITION
+   ======================================== */
+
+.theme-transitioning * {
+    transition: background-color 0.5s ease, border-color 0.5s ease, color 0.3s ease !important;
+}
+
+@keyframes theme-fade {
+    0% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/* ========================================
+   VARIABLE FONT ANIMATIONS
+   ======================================== */
+
+@supports (font-variation-settings: normal) {
+    .font-variable-weight {
+        font-variation-settings: 'wght' 400;
+        transition: font-variation-settings 0.3s ease;
+    }
+
+    .font-variable-weight:hover {
+        font-variation-settings: 'wght' 700;
+    }
+
+    .font-variable-kerning {
+        letter-spacing: 0;
+        transition: letter-spacing 0.3s ease, font-variation-settings 0.3s ease;
+    }
+
+    .font-variable-kerning:hover {
+        letter-spacing: 0.05em;
+        font-variation-settings: 'wght' 600;
+    }
+}
+
+/* ========================================
+   BLUR PLACEHOLDERS (LQIP)
+   ======================================== */
+
+.blur-load {
+    filter: blur(20px);
+    transition: filter 0.3s ease-out;
+}
+
+.blur-load.loaded {
+    filter: blur(0);
+}
+
+/* ========================================
+   REDUCED MOTION SUPPORT
+   ======================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    ::before,
+    ::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+
+    .font-variable-weight,
+    .font-variable-kerning {
+        transition: none !important;
+    }
+
+    .blur-load {
+        filter: none;
+        transition: none;
+    }
+}

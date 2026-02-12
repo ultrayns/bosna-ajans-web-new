@@ -1,0 +1,34 @@
+{
+  "clients": [
+    { "id": "c1", "name": "Sefa Merve", "logo": "/media/clients/sefamerve_1024x1024.webp", "website": "", "order": 1 },
+    { "id": "c2", "name": "DEİK", "logo": "/media/clients/dei-k-logo.webp", "website": "", "order": 2 },
+    { "id": "c3", "name": "Hat Quarters", "logo": "/media/clients/hat-quarters-logo.webp", "website": "", "order": 3 },
+    { "id": "c4", "name": "Tisk", "logo": "/media/clients/Tisk_logo-yatay-.webp", "website": "", "order": 4 },
+    { "id": "c5", "name": "Pure", "logo": "/media/clients/pure-logo.webp", "website": "", "order": 5 },
+    { "id": "c6", "name": "Boboist", "logo": "/media/clients/boboist.webp", "website": "", "order": 6 },
+    { "id": "c7", "name": "Hopp", "logo": "/media/clients/hopp.webp", "website": "", "order": 7 },
+    { "id": "c8", "name": "Ticarto", "logo": "/media/clients/TİCARTO.jpg", "website": "", "order": 8 },
+    { "id": "c9", "name": "Bond Non", "logo": "/media/clients/Logo-BOND-NON_300x300_Ğ›Ğ¾Ğ³Ğ¾Ñ‚Ğ¸Ğ¿-Ğ‘Ğ¾Ğ½Ğ´-Ğ½Ğ¾Ğ½-300x300-300x300.jpg", "website": "", "order": 9 },
+    { "id": "c10", "name": "Ziver", "logo": "/media/clients/ziver-78y8ob2.webp", "website": "", "order": 10 },
+    { "id": "c11", "name": "WE5 Concept", "logo": "/media/clients/we5_concept_cover.webp", "website": "", "order": 11 },
+    { "id": "c12", "name": "Gri Logo", "logo": "/media/clients/gri-logo.webp", "website": "", "order": 12 },
+    { "id": "c13", "name": "Big Logo", "logo": "/media/clients/bigLogo.6adf900d.webp", "website": "", "order": 13 },
+    { "id": "c14", "name": "Varlik", "logo": "/media/clients/Varlik-1@3x.webp", "website": "", "order": 14 },
+    { "id": "c15", "name": "Logo 883", "logo": "/media/clients/883.webp", "website": "", "order": 15 },
+    { "id": "c16", "name": "Client 16", "logo": "/media/clients/311132027_526042666195553_3942283670463454422_n.webp", "website": "", "order": 16 },
+    { "id": "c17", "name": "Client 17", "logo": "/media/clients/334530894_592664066072065_5579298890698420324_n.webp", "website": "", "order": 17 },
+    { "id": "c18", "name": "Client 18", "logo": "/media/clients/344724050_1091721864942171_7282479550156659900_n.webp", "website": "", "order": 18 },
+    { "id": "c19", "name": "Client 19", "logo": "/media/clients/616834aeeb53400a4fad0a5b.webp", "website": "", "order": 19 },
+    { "id": "c20", "name": "Client 20", "logo": "/media/clients/7e0f0f92-16f6-4133-80a3-451dc9e176d1.png.1453x852_q85_box-119,341,1572,1193_crop_detail.webp", "website": "", "order": 20 },
+    { "id": "c21", "name": "Client 21", "logo": "/media/clients/id_153716.webp", "website": "", "order": 21 },
+    { "id": "c22", "name": "Client 22", "logo": "/media/clients/images.webp", "website": "", "order": 22 },
+    { "id": "c23", "name": "Client 23", "logo": "/media/clients/logo copy.webp", "website": "", "order": 23 },
+    { "id": "c24", "name": "Client 24", "logo": "/media/clients/logo.webp", "website": "", "order": 24 },
+    { "id": "c25", "name": "Client 25", "logo": "/media/clients/tr_img_1_27.webp", "website": "", "order": 25 },
+    { "id": "c26", "name": "Client 26", "logo": "/media/clients/unnamed.webp", "website": "", "order": 26 },
+    { "id": "c27", "name": "Varlik Copy", "logo": "/media/clients/Varlik-1@3x copy.webp", "website": "", "order": 27 },
+    { "id": "c28", "name": "Basketbol", "logo": "/media/clients/erkek-basketbol-takimimiz-sezonu-aciyor_705x400.webp", "website": "", "order": 28 }
+  ]
+}
+
+

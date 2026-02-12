@@ -1,0 +1,32 @@
+{
+  "brandName": "BOSNA AJANS",
+  "tagline": "Çekim ve Prodüksiyon Hizmeti",
+  "logoUrl": "/media/logos/bosna-ajans-logo.png",
+  "faviconUrl": "/favicon.ico",
+  "seo": {
+    "title": "BOSNA AJANS | Profesyonel Fotoğraf ve Video Prodüksiyon",
+    "description": "İstanbul merkezli profesyonel fotoğraf ve video prodüksiyon stüdyosu. Ürün çekimi, moda fotoğrafçılığı, kurumsal tanıtım filmi hizmetleri.",
+    "keywords": "fotoğraf stüdyo, video prodüksiyon, ürün çekimi, moda fotoğrafçılığı, İstanbul",
+    "ogImage": "/media/og-image.jpg"
+  },
+  "contact": {
+    "email": "info@bosnaajans.com",
+    "phone": "0546 716 88 06",
+    "address": "Yıldırım, Ortanca Sk. no4, 34045 Bayrampaşa/İstanbul",
+    "googleMapsUrl": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x14cab1b17bd6445f:0x6909922a6d446508?sa=X&ved=1t:8290&ictx=111"
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/bosna_ajans/",
+    "vimeo": "",
+    "behance": "",
+    "linkedin": "",
+    "youtube": "",
+    "tiktok": ""
+  },
+  "footer": {
+    "copyright": "© 2025 BOSNA AJANS. Tüm hakları saklıdır.",
+    "privacyUrl": "/privacy",
+    "termsUrl": "/terms"
+  }
+}
+

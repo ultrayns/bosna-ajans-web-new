@@ -1,0 +1,47 @@
+{
+  "title": "Hakkımızda",
+  "subtitle": "İstanbul merkezli profesyonel prodüksiyon stüdyosu",
+  "heroImage": "",
+  "story": {
+    "title": "Hikayemiz",
+    "content": "<p>BOSNA AJANS, 2015 yılından bu yana İstanbul'da profesyonel fotoğraf ve video prodüksiyon hizmetleri sunmaktadır.</p><p>Markaların görsel hikayelerini en etkileyici şekilde anlatmak için tutkuyla çalışıyoruz. Her projede, müşterilerimizin vizyonunu hayata geçirmek ve beklentilerinin ötesine geçmek için özverili bir şekilde çalışıyoruz.</p><p>Deneyimli kadromuz ve modern ekipmanlarımızla, ürün fotoğrafçılığından moda çekimlerine, tanıtım filmlerinden sosyal medya içeriklerine kadar geniş bir yelpazede hizmet sunuyoruz.</p>"
+  },
+  "mission": {
+    "title": "Misyonumuz",
+    "content": "Markaların dijital dünyada öne çıkmasını sağlayacak etkileyici görsel içerikler üretmek ve müşterilerimize değer katmak."
+  },
+  "vision": {
+    "title": "Vizyonumuz",
+    "content": "Türkiye'nin en güvenilir ve yenilikçi prodüksiyon stüdyosu olmak, global standartlarda hizmet sunmak."
+  },
+  "values": [
+    {
+      "title": "Kalite",
+      "description": "Her projede en yüksek kalite standartlarını hedefliyoruz."
+    },
+    {
+      "title": "Yaratıcılık",
+      "description": "Sınırların ötesinde düşünerek özgün çözümler üretiyoruz."
+    },
+    {
+      "title": "Güvenilirlik",
+      "description": "Taahhütlerimizi zamanında ve eksiksiz yerine getiriyoruz."
+    },
+    {
+      "title": "İşbirliği",
+      "description": "Müşterilerimizle birlikte çalışarak en iyi sonuçları elde ediyoruz."
+    }
+  ],
+  "stats": [
+    { "value": "500+", "label": "Tamamlanan Proje" },
+    { "value": "200+", "label": "Mutlu Müşteri" },
+    { "value": "9", "label": "Yıllık Deneyim" },
+    { "value": "15+", "label": "Uzman Kadro" }
+  ],
+  "cta": {
+    "title": "Birlikte çalışalım",
+    "description": "Projeniz için profesyonel destek almak ister misiniz?",
+    "buttonText": "İletişime Geç",
+    "buttonUrl": "/contact"
+  }
+}

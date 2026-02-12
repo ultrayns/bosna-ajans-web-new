@@ -1,0 +1,69 @@
+version: '3.8'
+
+services:
+  # Strapi CMS
+  strapi:
+    build:
+      context: ./apps/new_cms
+      dockerfile: Dockerfile
+    container_name: bosnaajans-cms
+    restart: unless-stopped
+    environment:
+      DATABASE_CLIENT: mysql
+      DATABASE_HOST: db
+      DATABASE_PORT: 3306
+      DATABASE_NAME: ${MYSQL_DATABASE:-bosnaajans_cms}
+      DATABASE_USERNAME: ${MYSQL_USER:-strapi}
+      DATABASE_PASSWORD: ${MYSQL_PASSWORD:-strapi_password}
+      JWT_SECRET: ${JWT_SECRET:-your-jwt-secret-change-in-production}
+      ADMIN_JWT_SECRET: ${ADMIN_JWT_SECRET:-your-admin-jwt-secret-change-in-production}
+      API_TOKEN_SALT: ${API_TOKEN_SALT:-your-api-token-salt}
+      APP_KEYS: ${APP_KEYS:-key1,key2,key3,key4}
+      NODE_ENV: production
+      # Storage
+      STORAGE_PROVIDER: ${STORAGE_PROVIDER:-local}
+      R2_ACCOUNT_ID: ${R2_ACCOUNT_ID:-}
+      R2_ACCESS_KEY_ID: ${R2_ACCESS_KEY_ID:-}
+      R2_SECRET_ACCESS_KEY: ${R2_SECRET_ACCESS_KEY:-}
+      R2_BUCKET_NAME: ${R2_BUCKET_NAME:-}
+      R2_PUBLIC_URL: ${R2_PUBLIC_URL:-}
+    volumes:
+      - strapi_uploads:/opt/app/public/uploads
+    ports:
+      - "1337:1337"
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - bosnaajans-network
+
+  # MySQL Database
+  db:
+    image: mysql:8.0
+    container_name: bosnaajans-db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-root_password}
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-bosnaajans_cms}
+      MYSQL_USER: ${MYSQL_USER:-strapi}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-strapi_password}
+    volumes:
+      - mysql_data:/var/lib/mysql
+    ports:
+      - "3307:3306"
+    healthcheck:
+      test: [ "CMD", "mysqladmin", "ping", "-h", "localhost" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - bosnaajans-network
+
+volumes:
+  mysql_data:
+  strapi_uploads:
+
+
+networks:
+  bosnaajans-network:
+    driver: bridge

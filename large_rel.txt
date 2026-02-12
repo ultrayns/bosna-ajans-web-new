@@ -1,0 +1,4 @@
+﻿apps\web\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node
+apps\web\public\media\featured\Robin clinik (1).MP4
+apps\web\public\media\featured\Tekiş Makine 1 Revize 1.mp4
+node_modules\.pnpm\@next+swc-win32-x64-msvc@14.2.33\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node

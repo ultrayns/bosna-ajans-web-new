@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+X-DNS-Prefetch-Control: on
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: origin-when-cross-origin
+Permissions-Policy: camera=(), microphone=(), geolocation=()
+link: <http://localhost:3001/tr>; rel="alternate"; hreflang="tr", <http://localhost:3001/en>; rel="alternate"; hreflang="en", <http://localhost:3001/>; rel="alternate"; hreflang="x-default"
+set-cookie: NEXT_LOCALE=tr; Path=/; Expires=Thu, 11 Feb 2027 19:38:14 GMT; Max-Age=31536000; SameSite=lax
+x-middleware-rewrite: /tr
+Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Accept-Encoding
+x-nextjs-cache: HIT
+Cache-Control: no-store, must-revalidate
+Content-Type: text/html; charset=utf-8
+Date: Wed, 11 Feb 2026 19:38:14 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+

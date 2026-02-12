@@ -1,0 +1,9 @@
+node_modules
+.next
+build
+dist
+.turbo
+apps/cms/build
+apps/cms/.cache
+apps/cms/.tmp
+pnpm-lock.yaml

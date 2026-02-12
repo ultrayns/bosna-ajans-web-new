@@ -1,0 +1,53 @@
+{
+  "featuredWorks": [
+    {
+      "id": "fw1",
+      "title": "Moda Çekimi",
+      "category": "Moda",
+      "image": "/media/projects/IMG_3271-Edit-copy.webp",
+      "video": "/media/featured/moda-cekimi.mp4",
+      "order": 1
+    },
+    {
+      "id": "fw2",
+      "title": "Ürün Fotoğrafçılığı",
+      "category": "Ürün",
+      "image": "/media/projects/urun-cekimi-1-2.webp",
+      "video": "/media/featured/urun-cekimi.mp4",
+      "order": 2
+    },
+    {
+      "id": "fw3",
+      "title": "Reklam Filmi",
+      "category": "Video",
+      "image": "/media/projects/43-1.webp",
+      "video": "/media/featured/reklam-filmi.mp4",
+      "order": 3
+    },
+    {
+      "id": "fw4",
+      "title": "Kurumsal Tanıtım",
+      "category": "Kurumsal",
+      "image": "/media/projects/1-143.webp",
+      "video": "/media/featured/kurumsal-tanitim.mp4",
+      "order": 4
+    },
+    {
+      "id": "fw5",
+      "title": "Klinik Tanıtım",
+      "category": "Sağlık",
+      "image": "/media/projects/16-3.webp",
+      "video": "/media/featured/klinik-tanitim.mp4",
+      "order": 5
+    },
+    {
+      "id": "fw6",
+      "title": "Event Çekimi",
+      "category": "Event",
+      "image": "/media/projects/1-32-2.webp",
+      "video": "/media/featured/event-cekimi.mp4",
+      "order": 6
+    }
+  ]
+}
+

@@ -1,0 +1,36 @@
+{
+  "videos": [
+    {
+      "id": "sv1",
+      "title": "Reklam Filmi",
+      "titleEn": "Commercial Film",
+      "description": "Markanız için etkileyici reklam filmleri üretiyoruz.",
+      "descriptionEn": "We produce impressive commercial films for your brand.",
+      "videoUrl": "/videos/reklam-filmi.mp4",
+      "poster": "/media/projects/43-1.webp",
+      "order": 1
+    },
+    {
+      "id": "sv2",
+      "title": "Tanıtım Filmi",
+      "titleEn": "Promotional Film",
+      "description": "Kurumsal kimliğinizi yansıtan profesyonel tanıtım filmleri.",
+      "descriptionEn": "Professional promotional films reflecting your corporate identity.",
+      "videoUrl": "/videos/tanitim-filmi.mp4",
+      "poster": "/media/projects/1-32-2.webp",
+      "order": 2
+    },
+    {
+      "id": "sv3",
+      "title": "Sosyal Medya İçerik",
+      "titleEn": "Social Media Content",
+      "description": "Sosyal medya için dikkat çeken video içerikler.",
+      "descriptionEn": "Eye-catching video content for social media.",
+      "videoUrl": "/videos/sosyal-medya.mp4",
+      "poster": "/media/projects/IMG_2635-Edit-insta-.webp",
+      "order": 3
+    }
+  ]
+}
+
+

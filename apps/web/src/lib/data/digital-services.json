@@ -1,0 +1,64 @@
+{
+  "digitalServices": [
+    {
+      "id": "web-development",
+      "title": "Web Yazılım & Tasarım",
+      "titleEn": "Web Development & Design",
+      "description": "Modern, hızlı ve mobil uyumlu web siteleri ve uygulamalar.",
+      "descriptionEn": "Modern, fast and mobile-friendly websites and applications.",
+      "image": "/media/projects/web-design.webp",
+      "color": "from-blue-500 to-cyan-500",
+      "features": ["Kurumsal Web Sitesi", "E-Ticaret", "Mobil Uygulama", "UI/UX Tasarımı"],
+      "featuresEn": ["Corporate Website", "E-Commerce", "Mobile App", "UI/UX Design"],
+      "slug": "web-development",
+      "order": 1
+    },
+    {
+      "id": "digital-marketing",
+      "title": "Dijital Marketing",
+      "titleEn": "Digital Marketing",
+      "description": "Markanızı büyütecek kapsamlı dijital pazarlama stratejileri.",
+      "descriptionEn": "Comprehensive digital marketing strategies to grow your brand.",
+      "image": "/media/projects/digital-marketing.webp",
+      "color": "from-green-500 to-emerald-500",
+      "features": ["SEO & SEM", "İçerik Pazarlaması", "E-posta Marketing", "Analitik"],
+      "featuresEn": ["SEO & SEM", "Content Marketing", "Email Marketing", "Analytics"],
+      "slug": "digital-marketing",
+      "order": 2
+    },
+    {
+      "id": "social-media-management",
+      "title": "Sosyal Medya Yönetimi",
+      "titleEn": "Social Media Management",
+      "description": "Markanızı sosyal medyada güçlendiren profesyonel içerik ve yönetim.",
+      "descriptionEn": "Professional content and management to strengthen your brand on social media.",
+      "image": "/media/projects/social-media.webp",
+      "color": "from-purple-500 to-pink-500",
+      "features": ["İçerik Planlaması", "Topluluk Yönetimi", "Influencer İşbirlikleri", "Sosyal Analitik"],
+      "featuresEn": ["Content Planning", "Community Management", "Influencer Collaborations", "Social Analytics"],
+      "slug": "social-media-management",
+      "order": 3
+    },
+    {
+      "id": "advertising-management",
+      "title": "Reklam Yönetimi",
+      "titleEn": "Advertising Management",
+      "description": "Google Ads, Meta ve dijital platformlarda profesyonel reklam yönetimi.",
+      "descriptionEn": "Professional advertising management on Google Ads, Meta and digital platforms.",
+      "image": "/media/projects/advertising.webp",
+      "color": "from-orange-500 to-red-500",
+      "features": ["Google Ads", "Facebook & Instagram Ads", "YouTube Reklamları", "Remarketing"],
+      "featuresEn": ["Google Ads", "Facebook & Instagram Ads", "YouTube Ads", "Remarketing"],
+      "slug": "advertising-management",
+      "order": 4
+    }
+  ],
+  "stats": [
+    { "value": "100+", "labelTr": "Web Sitesi Teslim Edildi", "labelEn": "Websites Delivered" },
+    { "value": "500%", "labelTr": "Ort. Trafik Artışı", "labelEn": "Avg. Traffic Increase" },
+    { "value": "50+", "labelTr": "Aktif Müşteri", "labelEn": "Active Clients" },
+    { "value": "10M+", "labelTr": "Reklam Gösterimi", "labelEn": "Ad Impressions" }
+  ]
+}
+
+

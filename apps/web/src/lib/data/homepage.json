@@ -1,0 +1,47 @@
+{
+  "hero": {
+    "headline": "Markanızı görsel hikayelerle hayata geçiriyoruz.",
+    "subline": "İstanbul merkezli profesyonel prodüksiyon stüdyosu",
+    "ctaPrimaryLabel": "Projelerimiz",
+    "ctaPrimaryUrl": "/portfolio",
+    "ctaSecondaryLabel": "İletişime Geç",
+    "ctaSecondaryUrl": "/contact",
+    "backgroundImages": [
+      "/media/projects/1-143.webp",
+      "/media/projects/canta-urun-cekimi-3.webp",
+      "/media/projects/1-8.webp",
+      "/media/projects/z-4-1.webp"
+    ],
+    "showreelUrl": ""
+  },
+  "manifesto": {
+    "content": "<p>Görsel hikaye anlatımının gücüne inanıyoruz. Markaları dönüştüren ve izleyicileri etkileyen içerikler üretiyoruz.</p><p>Her proje ikonik bir şey yaratmak için bir fırsattır - sadece dikkat çekmeyen, onu komuta eden işler.</p><p>Yaklaşımımız, editoryal hassasiyeti sinematik hırsla birleştirerek, aşırı doymuş bir dünyada öne çıkan içerikler sunar.</p>",
+    "linkLabel": "Hakkımızda",
+    "linkUrl": "/about",
+    "backgroundImage": ""
+  },
+  "capabilities": {
+    "title": "Hizmetlerimiz",
+    "items": [
+      { "title": "Video Prodüksiyon", "description": "Tanıtım filmi, reklam ve sosyal medya içerik üretimi.", "image": "/media/projects/43-1.webp", "slug": "video-production" },
+      { "title": "Fotoğraf Çekimi", "description": "Ürün, moda, yemek ve takı fotoğrafçılığında uzman kadro.", "image": "/media/projects/IMG_3271-Edit-copy.webp", "slug": "fashion-photography" },
+      { "title": "Ürün Fotoğrafçılığı", "description": "E-ticaret ve kataloglar için profesyonel ürün çekimi.", "image": "/media/projects/urun-cekimi-1-2.webp", "slug": "product-photography" },
+      { "title": "Post Prodüksiyon", "description": "Renk düzeltme, retouch ve profesyonel düzenleme hizmetleri.", "image": "/media/projects/1-32-2.webp", "slug": "post-production" }
+    ]
+  },
+  "process": {
+    "title": "Sürecimiz",
+    "steps": [
+      { "title": "Keşif", "description": "Marka, hedefler ve kitleyi anlama" },
+      { "title": "Konsept", "description": "Yaratıcı vizyon ve hikaye geliştirme" },
+      { "title": "Prodüksiyon", "description": "Vizyonu hassasiyetle hayata geçirme" },
+      { "title": "Teslimat", "description": "Etki yaratmaya hazır profesyonel içerik" }
+    ]
+  },
+  "ctaFooter": {
+    "headline": "Birlikte ikonik bir şeyler yaratalım.",
+    "showEmail": true,
+    "showSocials": true
+  }
+}
+

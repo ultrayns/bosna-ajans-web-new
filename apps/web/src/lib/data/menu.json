@@ -1,0 +1,13 @@
+{
+  "mainMenu": [
+    { "id": "1", "label": "Ana Sayfa", "url": "/", "order": 1, "isExternal": false },
+    { "id": "2", "label": "Hizmetler", "url": "/services", "order": 2, "isExternal": false, "children": [] },
+    { "id": "3", "label": "Portfolio", "url": "/portfolio", "order": 3, "isExternal": false },
+    { "id": "4", "label": "Hakkımızda", "url": "/about", "order": 4, "isExternal": false },
+    { "id": "5", "label": "İletişim", "url": "/contact", "order": 5, "isExternal": false }
+  ],
+  "footerMenu": [
+    { "id": "1", "label": "Gizlilik Politikası", "url": "/privacy", "order": 1, "isExternal": false },
+    { "id": "2", "label": "Kullanım Şartları", "url": "/terms", "order": 2, "isExternal": false }
+  ]
+}

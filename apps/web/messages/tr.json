@@ -1,0 +1,79 @@
+{
+  "common": {
+    "menu": "Menü",
+    "close": "Kapat",
+    "scrollUp": "Yukarı kaydır",
+    "loading": "Yükleniyor..."
+  },
+  "navigation": {
+    "home": "Anasayfa",
+    "portfolio": "Portfolyo",
+    "services": "Hizmetler",
+    "contact": "İletişim",
+    "getInTouch": "İletişime Geçin"
+  },
+  "hero": {
+    "tagline": "BOSNAAJANS",
+    "headline": "Markalar & Müzik için\\nModa Kalitesinde Prodüksiyon",
+    "showreel": "Showreel",
+    "selectedWorks": "Seçili İşler",
+    "scroll": "Kaydır"
+  },
+  "sections": {
+    "selectedWorks": "Seçili İşler",
+    "capabilities": "Yetenekler",
+    "manifesto": "Manifesto",
+    "clients": "Müşteriler",
+    "awards": "Ödüller",
+    "process": "Süreç",
+    "team": "Ekip"
+  },
+  "capabilities": {
+    "production": "Prodüksiyon",
+    "productionDesc": "Konseptten final ürüne kadar eksiksiz prodüksiyon hizmetleri.",
+    "post": "Post Prodüksiyon",
+    "postDesc": "Color grading, VFX ve ses tasarımı ile premium son işleme.",
+    "creative": "Kreatif",
+    "creativeDesc": "Strateji, konsept geliştirme ve art direction."
+  },
+  "process": {
+    "discovery": "Keşif",
+    "discoveryDesc": "Brief analizi ve konsept geliştirme",
+    "prep": "Hazırlık",
+    "prepDesc": "Pre-prodüksiyon ve planlama",
+    "shoot": "Çekim",
+    "shootDesc": "Profesyonel prodüksiyon",
+    "post": "Son İşlem",
+    "postDesc": "Edit, color ve teslimat"
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Bir sonraki projeniz için konuşalım.",
+    "name": "İsim",
+    "email": "E-posta",
+    "message": "Mesaj",
+    "file": "Brief Dosyası (Opsiyonel)",
+    "send": "Gönder",
+    "sending": "Gönderiliyor...",
+    "success": "Mesajınız iletildi. En kısa sürede dönüş yapacağız.",
+    "error": "Bir hata oluştu. Lütfen tekrar deneyin."
+  },
+  "footer": {
+    "cta": "Birlikte ikonik bir şey yapalım.",
+    "rights": "Tüm hakları saklıdır."
+  },
+  "project": {
+    "client": "Müşteri",
+    "year": "Yıl",
+    "services": "Hizmetler",
+    "deliverables": "Teslimatlar",
+    "nextProject": "Sonraki Proje"
+  },
+  "filter": {
+    "all": "Tümü",
+    "brands": "Markalar",
+    "music": "Müzik",
+    "campaign": "Kampanya",
+    "film": "Film"
+  }
+}

@@ -1,0 +1,23 @@
+version: '3.8'
+
+# Development environment - only database
+# Run Strapi locally with: cd apps/cms && npm run develop
+
+services:
+  db:
+    container_name: bosnaajans-mysql-dev
+    image: mysql:8.0
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: bosnaajans_cms
+      MYSQL_USER: strapi
+      MYSQL_PASSWORD: strapi_password
+      MYSQL_ROOT_PASSWORD: root_password
+    ports:
+      - '3307:3306'
+    volumes:
+      - mysql_data_dev:/var/lib/mysql
+    command: --default-authentication-plugin=mysql_native_password
+
+volumes:
+  mysql_data_dev:

@@ -1,0 +1,41 @@
+{
+  "categories": [
+    { "id": "1", "name": "Ürün Çekimi", "slug": "urun", "order": 1, "image": "/media/projects/urun-cekimi-1-2.webp" },
+    { "id": "2", "name": "Züccaciye", "slug": "zuccaciye", "order": 2, "image": "/media/projects/urun-zuccaciye-cekimi-17.webp" },
+    { "id": "3", "name": "Takı Çekimi", "slug": "taki", "order": 3, "image": "/media/projects/z-4-1.webp" },
+    { "id": "4", "name": "Saat Çekimi", "slug": "saat", "order": 4, "image": "/media/projects/saat-cekimi-1-1.webp" },
+    { "id": "5", "name": "Moda Çekim", "slug": "moda", "order": 5, "image": "/media/projects/IMG_3271-Edit-copy.webp" },
+    { "id": "6", "name": "Yemek Çekimi", "slug": "yemek", "order": 6, "image": "/media/projects/1-16-1.webp" },
+    { "id": "7", "name": "Video Çekimi", "slug": "video", "order": 7, "image": "/media/projects/43-1.webp" },
+    { "id": "8", "name": "Event", "slug": "event", "order": 8, "image": "/media/projects/43-1.webp" },
+    { "id": "9", "name": "Kongre", "slug": "kongre", "order": 9, "image": "/media/projects/16-3.webp" },
+    { "id": "10", "name": "Ayakkabı Çekimi", "slug": "ayakkabi", "order": 10, "image": "/media/projects/genel/ayakkabi-1.jpg" },
+    { "id": "11", "name": "Kozmetik Çekimi", "slug": "kozmetik", "order": 11, "image": "/media/projects/genel/kozmetik-1.jpg" },
+    { "id": "12", "name": "Tekstil Çekimi", "slug": "tekstil", "order": 12, "image": "/media/projects/genel/tekstil-1.jpg" }
+  ],
+  "subcategories": [
+    { "id": "1", "name": "Baharatlık", "slug": "baharatlik", "parentSlug": "zuccaciye", "order": 1 },
+    { "id": "2", "name": "Banyo Takımı", "slug": "banyo-takimi", "parentSlug": "zuccaciye", "order": 2 },
+    { "id": "3", "name": "Mutfak Gereçleri", "slug": "mutfak-gerecleri", "parentSlug": "zuccaciye", "order": 3 },
+    { "id": "4", "name": "Porselen", "slug": "porselen", "parentSlug": "zuccaciye", "order": 4 },
+    { "id": "5", "name": "Kadın Takı", "slug": "kadin-taki", "parentSlug": "taki", "order": 1 },
+    { "id": "6", "name": "Erkek Takı", "slug": "erkek-taki", "parentSlug": "taki", "order": 2 },
+    { "id": "7", "name": "Gelin Takısı", "slug": "gelin-takisi", "parentSlug": "taki", "order": 3 },
+    { "id": "8", "name": "Erkek Saat", "slug": "erkek-saat", "parentSlug": "saat", "order": 1 },
+    { "id": "9", "name": "Kadın Saat", "slug": "kadin-saat", "parentSlug": "saat", "order": 2 },
+    { "id": "10", "name": "Lookbook", "slug": "lookbook", "parentSlug": "moda", "order": 1 },
+    { "id": "11", "name": "Katalog", "slug": "katalog", "parentSlug": "moda", "order": 2 },
+    { "id": "12", "name": "Editorial", "slug": "editorial", "parentSlug": "moda", "order": 3 },
+    { "id": "13", "name": "Restoran", "slug": "restoran", "parentSlug": "yemek", "order": 1 },
+    { "id": "14", "name": "Cafe", "slug": "cafe", "parentSlug": "yemek", "order": 2 },
+    { "id": "15", "name": "Fast Food", "slug": "fastfood", "parentSlug": "yemek", "order": 3 },
+    { "id": "16", "name": "Tanıtım Filmi", "slug": "tanitim-filmi", "parentSlug": "video", "order": 1 },
+    { "id": "17", "name": "Reklam Filmi", "slug": "reklam-filmi", "parentSlug": "video", "order": 2 },
+    { "id": "18", "name": "Sosyal Medya", "slug": "sosyal-medya-video", "parentSlug": "video", "order": 3 },
+    { "id": "19", "name": "Düğün", "slug": "dugun", "parentSlug": "event", "order": 1 },
+    { "id": "20", "name": "Lansman", "slug": "lansman", "parentSlug": "event", "order": 2 },
+    { "id": "21", "name": "Açılış", "slug": "acilis", "parentSlug": "event", "order": 3 }
+  ]
+}
+
+

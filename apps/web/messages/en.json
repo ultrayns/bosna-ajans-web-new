@@ -1,0 +1,79 @@
+{
+  "common": {
+    "menu": "Menu",
+    "close": "Close",
+    "scrollUp": "Scroll up",
+    "loading": "Loading..."
+  },
+  "navigation": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "services": "Services",
+    "contact": "Contact",
+    "getInTouch": "Get in Touch"
+  },
+  "hero": {
+    "tagline": "BOSNAAJANS",
+    "headline": "Fashion-grade Production\nfor Brands & Music",
+    "showreel": "Showreel",
+    "selectedWorks": "Selected Works",
+    "scroll": "Scroll"
+  },
+  "sections": {
+    "selectedWorks": "Selected Works",
+    "capabilities": "Capabilities",
+    "manifesto": "Manifesto",
+    "clients": "Clients",
+    "awards": "Awards",
+    "process": "Process",
+    "team": "Team"
+  },
+  "capabilities": {
+    "production": "Production",
+    "productionDesc": "Full production services from concept to final delivery.",
+    "post": "Post Production",
+    "postDesc": "Premium finishing with color grading, VFX and sound design.",
+    "creative": "Creative",
+    "creativeDesc": "Strategy, concept development and art direction."
+  },
+  "process": {
+    "discovery": "Discovery",
+    "discoveryDesc": "Brief analysis and concept development",
+    "prep": "Prep",
+    "prepDesc": "Pre-production and planning",
+    "shoot": "Shoot",
+    "shootDesc": "Professional production",
+    "post": "Post",
+    "postDesc": "Edit, color and delivery"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's talk about your next project.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "file": "Brief File (Optional)",
+    "send": "Send",
+    "sending": "Sending...",
+    "success": "Your message has been sent. We'll get back to you soon.",
+    "error": "An error occurred. Please try again."
+  },
+  "footer": {
+    "cta": "Let's make something iconic.",
+    "rights": "All rights reserved."
+  },
+  "project": {
+    "client": "Client",
+    "year": "Year",
+    "services": "Services",
+    "deliverables": "Deliverables",
+    "nextProject": "Next Project"
+  },
+  "filter": {
+    "all": "All",
+    "brands": "Brands",
+    "music": "Music",
+    "campaign": "Campaign",
+    "film": "Film"
+  }
+}

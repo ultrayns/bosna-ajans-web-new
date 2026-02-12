@@ -1,0 +1,116 @@
+{
+  "services": [
+    {
+      "id": "1",
+      "title": "Video Prodüksiyon",
+      "slug": "video-production",
+      "shortDescription": "Tanıtım filmleri, reklam videoları ve sosyal medya içerikleri.",
+      "fullDescription": "Konsept geliştirmeden son teslimata kadar tüm video prodüksiyon süreçlerini profesyonelce yönetiyoruz.",
+      "image": "/media/projects/43-1.webp",
+      "video": "/media/videos/video-production.mp4",
+      "features": ["Tanıtım filmleri", "Reklam spotları", "Sosyal medya videoları", "Kurumsal filmler"],
+      "order": 1
+    },
+    {
+      "id": "2",
+      "title": "Moda Fotoğrafçılığı",
+      "slug": "fashion-photography",
+      "shortDescription": "Markalar ve yayınlar için editoryal ve ticari moda fotoğrafçılığı.",
+      "fullDescription": "Moda dünyasının dinamik yapısını profesyonel kadromuzla en iyi şekilde yansıtıyoruz.",
+      "image": "/media/projects/IMG_3271-Edit-copy.webp",
+      "video": "/media/videos/fashion-photography.mp4",
+      "features": ["Lookbook çekimleri", "Katalog fotoğrafçılığı", "Editöryal çekimler", "Model koordinasyonu"],
+      "order": 2
+    },
+    {
+      "id": "3",
+      "title": "Ürün Fotoğrafçılığı",
+      "slug": "product-photography",
+      "shortDescription": "E-ticaret ve kataloglar için yüksek kaliteli ürün fotoğrafçılığı.",
+      "fullDescription": "E-ticaret siteniz için yüksek dönüşüm sağlayan profesyonel ürün fotoğrafları.",
+      "image": "/media/projects/urun-cekimi-1-2.webp",
+      "video": "/media/videos/product-photography.mp4",
+      "features": ["Beyaz zemin ürün çekimi", "Lifestyle çekimleri", "360Â° ürün fotoğrafları", "Hızlı teslimat"],
+      "order": 3
+    },
+    {
+      "id": "4",
+      "title": "Post Prodüksiyon",
+      "slug": "post-production",
+      "shortDescription": "Renk düzeltme, rötuş ve düzenleme hizmetleri.",
+      "fullDescription": "Son teknoloji stüdyomuzda dünya standartlarında post prodüksiyon hizmetleri.",
+      "image": "/media/projects/1-32-2.webp",
+      "video": "/media/videos/post-production.mp4",
+      "features": ["Renk grading", "Retouch & düzenleme", "Motion graphics", "Ses tasarımı"],
+      "order": 4
+    },
+    {
+      "id": "5",
+      "title": "Etkinlik Çekimi",
+      "slug": "event-photography",
+      "shortDescription": "Kongre, lansman ve kurumsal etkinlik dokümantasyonu.",
+      "fullDescription": "Önemli anlarınızı profesyonelce belgeleyen etkinlik çekimi hizmetleri.",
+      "image": "/media/projects/16-3.webp",
+      "video": "",
+      "features": ["Kongre çekimi", "Ürün lansman etkinlikleri", "Kurumsal toplantılar", "Fuar çekimleri"],
+      "order": 5
+    },
+    {
+      "id": "6",
+      "title": "Kreatif Yönetmenlik",
+      "slug": "creative-direction",
+      "shortDescription": "Stratejik vizyon ile markaları kültürel hareketlere dönüştürme.",
+      "fullDescription": "Kampanyalar ve marka girişimleri için uçtan uca kreatif yönetmenlik.",
+      "image": "/media/projects/IMG_2635-Edit-insta-.webp",
+      "video": "",
+      "features": ["Marka stratejisi", "Kampanya geliştirme", "Sanat yönetmenliği", "Konsept geliştirme"],
+      "order": 6
+    },
+    {
+      "id": "7",
+      "title": "Web Yazılım & Tasarım",
+      "slug": "web-development",
+      "shortDescription": "Modern, hızlı ve mobil uyumlu web siteleri ve uygulamalar.",
+      "fullDescription": "İşletmenizi dijital dünyada ön plana çıkaracak modern web çözümleri.",
+      "image": "/media/projects/web-design.webp",
+      "video": "",
+      "features": ["Kurumsal web sitesi", "E-ticaret platformları", "Mobil uygulama", "SEO optimizasyonu"],
+      "order": 7
+    },
+    {
+      "id": "8",
+      "title": "Dijital Marketing",
+      "slug": "digital-marketing",
+      "shortDescription": "Markanızı büyütecek kapsamlı dijital pazarlama stratejileri.",
+      "fullDescription": "Veri odaklı dijital pazarlama stratejileriyle markanızı hedef kitlenize ulaştırıyoruz.",
+      "image": "/media/projects/digital-marketing.webp",
+      "video": "",
+      "features": ["SEO & SEM stratejileri", "İçerik pazarlaması", "E-posta marketing", "Analitik & raporlama"],
+      "order": 8
+    },
+    {
+      "id": "9",
+      "title": "Reklam Yönetimi",
+      "slug": "advertising-management",
+      "shortDescription": "Google Ads, Meta ve dijital platformlarda profesyonel reklam yönetimi.",
+      "fullDescription": "Dijital reklam bütçenizi en verimli şekilde kullanmanızı sağlıyoruz.",
+      "image": "/media/projects/advertising.webp",
+      "video": "",
+      "features": ["Google Ads", "Facebook & Instagram Ads", "YouTube kampanyaları", "A/B test"],
+      "order": 9
+    },
+    {
+      "id": "10",
+      "title": "Sosyal Medya Yönetimi",
+      "slug": "social-media-management",
+      "shortDescription": "Markanızı sosyal medyada güçlendiren profesyonel içerik ve yönetim.",
+      "fullDescription": "Sosyal medya varlığınızı güçlendirmek için stratejik plan ve içerik üretimi.",
+      "image": "/media/projects/social-media.webp",
+      "video": "",
+      "features": ["İçerik planlaması", "Görsel & video üretimi", "Topluluk yönetimi", "Influencer işbirlikleri"],
+      "order": 10
+    }
+  ]
+}
+
+

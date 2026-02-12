@@ -1,0 +1,39 @@
+{
+  "slides": [
+    {
+      "id": "ps1",
+      "title": "Moda Çekimi",
+      "subtitle": "Fashion Brand",
+      "description": "Sezonluk koleksiyonlar için premium moda fotoğrafçılığı.",
+      "category": "Moda",
+      "client": "Fashion Brand",
+      "year": 2024,
+      "image": "/media/projects/IMG_3271-Edit-copy.webp",
+      "order": 1
+    },
+    {
+      "id": "ps2",
+      "title": "Ürün Çekimi",
+      "subtitle": "E-Ticaret Müşterisi",
+      "description": "E-ticaret için yüksek kaliteli ürün fotoğrafçılığı.",
+      "category": "Ürün",
+      "client": "E-Ticaret Müşterisi",
+      "year": 2024,
+      "image": "/media/projects/urun-cekimi-1-2.webp",
+      "order": 2
+    },
+    {
+      "id": "ps3",
+      "title": "Kurumsal Tanıtım",
+      "subtitle": "Tekiş Makine",
+      "description": "Profesyonel kurumsal tanıtım filmi prodüksiyonu.",
+      "category": "Video",
+      "client": "Tekiş Makine",
+      "year": 2024,
+      "image": "/media/projects/43-1.webp",
+      "order": 3
+    }
+  ]
+}
+
+

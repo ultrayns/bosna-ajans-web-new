@@ -1,0 +1,16 @@
+{
+  "team": [
+    { "id": "1", "name": "Ahmet Yılmaz", "role": "Kreatif Direktör", "photo": "/media/projects/IMG_3271-Edit-copy.webp", "bio": "15 yıllık sektör deneyimi ile markalar için yaratıcı çözümler üretiyor.", "order": 1 },
+    { "id": "2", "name": "Elif Kaya", "role": "Prodüktör", "photo": "/media/projects/1-8.webp", "bio": "Büyük ölçekli prodüksiyonları yöneten deneyimli prodüktör.", "order": 2 },
+    { "id": "3", "name": "Can Demir", "role": "Görüntü Yönetmeni", "photo": "/media/projects/43-1.webp", "bio": "Sinematografik bakış açısı ile projelere imza atıyor.", "order": 3 },
+    { "id": "4", "name": "Zeynep Arslan", "role": "Post Prodüksiyon Sorumlusu", "photo": "/media/projects/1-32-2.webp", "bio": "Renk düzeltme ve kurgu konusunda uzman.", "order": 4 }
+  ],
+  "awards": [
+    { "id": "1", "title": "En İyi Kurumsal Film", "year": 2024, "type": "award", "order": 1 },
+    { "id": "2", "title": "Moda Fotoğrafçılığı Ödülü", "year": 2024, "type": "award", "order": 2 },
+    { "id": "3", "title": "Marketing Türkiye Röportaj", "year": 2023, "type": "press", "order": 3 },
+    { "id": "4", "title": "Yılın En İyi Stüdyosu", "year": 2023, "type": "award", "order": 4 }
+  ]
+}
+
+

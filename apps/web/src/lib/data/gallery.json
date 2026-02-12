@@ -1,0 +1,18 @@
+{
+  "galleryImages": [
+    { "id": "g1", "src": "/media/projects/IMG_3271-Edit-copy.webp", "alt": "Moda Çekimi", "category": "Moda", "order": 1 },
+    { "id": "g2", "src": "/media/projects/saat-cekimi-1-1.webp", "alt": "Saat Çekimi", "category": "Saat", "order": 2 },
+    { "id": "g3", "src": "/media/projects/1-143.webp", "alt": "Ayakkabı Çekimi", "category": "Ürün", "order": 3 },
+    { "id": "g4", "src": "/media/projects/urun-zuccaciye-cekimi-17.webp", "alt": "Züccaciye", "category": "Züccaciye", "order": 4 },
+    { "id": "g5", "src": "/media/projects/1-143.webp", "alt": "Takı Çekimi", "category": "Takı", "order": 5 },
+    { "id": "g6", "src": "/media/projects/1-16-1.webp", "alt": "Yemek Çekimi", "category": "Yemek", "order": 6 },
+    { "id": "g7", "src": "/media/projects/43-1.webp", "alt": "Event Çekimi", "category": "Event", "order": 7 },
+    { "id": "g8", "src": "/media/projects/canta-urun-cekimi-3.webp", "alt": "Çanta Çekimi", "category": "Ürün", "order": 8 },
+    { "id": "g9", "src": "/media/projects/16-3.webp", "alt": "Kongre Çekimi", "category": "Kongre", "order": 9 },
+    { "id": "g10", "src": "/media/projects/urun-cekimi-1-2.webp", "alt": "Ürün Çekimi", "category": "Ürün", "order": 10 },
+    { "id": "g11", "src": "/media/projects/1-32-2.webp", "alt": "Tekstil Çekimi", "category": "Tekstil", "order": 11 },
+    { "id": "g12", "src": "/media/projects/z-4-1.webp", "alt": "Takı Detay", "category": "Takı", "order": 12 }
+  ]
+}
+
+
