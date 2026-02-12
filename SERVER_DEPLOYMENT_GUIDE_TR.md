@@ -3,12 +3,50 @@
 Bu rehber, projenin gerçek bir sunucuda (Production) nasıl yayınlanacağını "hiç bilmeyen birine anlatır gibi" adım adım açıklar.
 
 İki ana yöntem vardır:
-1.  **Vercel (Önerilen):** En kolayıdır, sunucu ayarı gerektirmez.
-2.  **Ubuntu VPS (Kiralık Sunucu):** Kendi sunucunuz varsa (DigitalOcean, Hetzner, AWS vb.) kullanacağınız yöntemdir.
+2.  **Plesk Panel (Sizin Sunucunuz):** Paylaştığınız ekran görüntüsüne göre sunucunuzda **Plesk** yüklü ve **Node.js desteği** var.
 
 ---
 
-## 📦 Veritabanı Hakkında (Önemli)
+## 📦 Veritabanı ve Admin Paneli
+- **Veritabanı:** JSON dosyaları (`apps/web/src/lib/data`). Otomatik yüklenir.
+- **Admin Paneli:** `bosnaajans.com/admin` (Kullanıcı: `admin`, Şifre: `bosna2025`).
+
+---
+
+## 🚀 Seçenek 1: Plesk Panel ile Kurulum (Sizin Hostinginiz)
+
+Ekran görüntünüze göre sunucunuzda **Plesk** ve **Node.js** uzantısı kurulu. Bu harika! Kurulumu doğrudan buradan yapabiliriz.
+
+### Adım 1: "Git" Aracını Kullanarak Dosyaları Çekin
+1.  Plesk panelinizde **"Git"** simgesine tıklayın.
+2.  Açılan sayfada **Repo URL** kısmına şunu yapıştırın:
+    `https://github.com/ultraynsol/bosna-ajans-web-new.git`
+3.  **Deploy (Dağıt)** modunu "Manual" veya "Automatic" seçebilirsiniz.
+4.  **Oluştur (Create)** butonuna basın. GitHub'daki dosyalarınız sunucuya inecektir (Genellikle `httpdocs/bosnaajans` gibi bir klasöre).
+
+### Adım 2: Node.js Ayarlarını Yapılandırın
+1.  Plesk ana sayfasına dönün ve **"Node.js"** simgesine tıklayın.
+2.  Şu ayarları yapın:
+    - **Node.js Version:** `20.x` veya üzeri (Ekran görüntünüzde `24.13.0` var, bu uygundur).
+    - **Package Manager:** `pnpm` (Eğer listede yoksa `npm` seçin).
+    - **Document Root:** Proje dosyalarının indiği klasör (Örn: `httpdocs/bosnaajans/apps/web`). **Dikkat:** `apps/web` klasörünü göstermelisiniz.
+    - **Application Mode:** `Production`.
+    - **Application Startup File:** `server.js` (veya Next.js için `node_modules/next/dist/bin/next`).
+      *Ancak Plesk'te en kolayı şudur:* Startup file kısmına sadece `npm run start` komutunu çalıştıracak bir ayar girmek.
+      Eğer "Run script" seçeneği varsa **"start"** scriptini seçin.
+
+3.  **"NPM Install"** butonuna basın. Bağımlılıkları yükleyecektir.
+    *(Not: Monorepo yapısı (apps/web) Plesk'te bazen karışık olabilir. Eğer `pnpm` hatası alırsanız, `Install` işlemini SSH üzerinden yapmanız daha sağlıklı olabilir.)*
+
+4.  **"Run Script"** kısmından **"Build"** komutunu çalıştırın.
+
+5.  Uygulamayı **"Restart"** edin.
+
+> **⚠️ ÖNEMLİ:** Medya dosyalarınızı (`apps/web/public/media` ve `old-site`) FileZilla vb. ile `httpdocs/bosnaajans/apps/web/public` klasörüne yüklemeyi unutmayın!
+
+---
+
+## 🚀 Seçenek 2: Vercel ile (Alternatif)
 
 **Müjde!** Bu proje şu anda "Dosya Tabanlı (JSON)" bir veritabanı sistemi kullanmaktadır.
 Yani verileriniz `apps/web/src/lib/data` klasöründeki dosyalarda saklanır.
