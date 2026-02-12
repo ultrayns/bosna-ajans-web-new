@@ -29,20 +29,36 @@ Ekran görüntünüze göre sunucunuzda **Plesk** ve **Node.js** uzantısı kuru
 2.  Şu ayarları yapın:
     - **Node.js Version:** `20.x` veya üzeri (Ekran görüntünüzde `24.13.0` var, bu uygundur).
     - **Package Manager:** `pnpm` (Eğer listede yoksa `npm` seçin).
-    - **Document Root:** Proje dosyalarının indiği klasör (Örn: `httpdocs/bosnaajans/apps/web`). **Dikkat:** `apps/web` klasörünü göstermelisiniz.
+    - **Document Root:** Projenin ana klasörü (Örn: `httpdocs/bosnaajans`).
+    - **Application Root:** Projenin ana klasörü (Örn: `httpdocs/bosnaajans`). **Burada `apps/web` seçmeyin, monorepo olduğu için kök dizini kullanmalıyız.**
     - **Application Mode:** `Production`.
-    - **Application Startup File:** `server.js` (veya Next.js için `node_modules/next/dist/bin/next`).
-      *Ancak Plesk'te en kolayı şudur:* Startup file kısmına sadece `npm run start` komutunu çalıştıracak bir ayar girmek.
-      Eğer "Run script" seçeneği varsa **"start"** scriptini seçin.
+    - **Application Startup File:** `apps/web/server.js` (veya Next.js standalone build kullanıyorsanız).
+      *Ancak en garantisi:* Startup File yerine sadece **"Run Script"** butonunu kullanmaktır.
 
-3.  **"NPM Install"** butonuna basın. Bağımlılıkları yükleyecektir.
-    *(Not: Monorepo yapısı (apps/web) Plesk'te bazen karışık olabilir. Eğer `pnpm` hatası alırsanız, `Install` işlemini SSH üzerinden yapmanız daha sağlıklı olabilir.)*
+3.  **"NPM Install"** butonuna basın. (Kök dizindeki bağımlılıkları yükler).
 
-4.  **"Run Script"** kısmından **"Build"** komutunu çalıştırın.
+4.  **"Run Script"** butonuna tıklayın ve:
+    - `build` komutunu çalıştırın.
+    - Daha sonra `start` komutunu çalıştırın (veya `apps/web` içindeki start komutunu).
 
-5.  Uygulamayı **"Restart"** edin.
+> **💡 İPUCU:** Monorepo yapıları (apps/web) Plesk'te bazen karmaşık olabilir. Eğer "NPM Install" veya "Build" hata verirse, SSH (Terminal) ile bağlanıp şu komutları elle yazmak daha sağlıklı olabilir:
+> ```bash
+> cd httpdocs/bosnaajans
+> npm install -g pnpm
+> pnpm install
+> pnpm run build
+> cd apps/web
+> pm2 start npm --name "bosna-web" -- start
+> ```
 
-> **⚠️ ÖNEMLİ:** Medya dosyalarınızı (`apps/web/public/media` ve `old-site`) FileZilla vb. ile `httpdocs/bosnaajans/apps/web/public` klasörüne yüklemeyi unutmayın!
+5.  **"Restart"** butonuna basın.
+
+### Adım 3: Medya Dosyaları (Çok Önemli!)
+GitHub'dan gelen projede **resimler ve videolar eksiktir**.
+1.  Bilgisayarınızdaki `apps/web/public/media` ve `apps/web/public/old-site` klasörlerini bulun.
+2.  Plesk'te **"Dosya Yöneticisi"**ni açın.
+3.  `httpdocs/bosnaajans/apps/web/public` klasörüne gidin.
+4.  Buraya elinizdeki `media` ve `old-site` klasörlerini yükleyin. Aksi takdirde sitenizde görseller gözükmez.
 
 ---
 
