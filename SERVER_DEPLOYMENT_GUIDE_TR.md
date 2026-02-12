@@ -8,7 +8,18 @@ Bu rehber, projenin gerçek bir sunucuda (Production) nasıl yayınlanacağını
 
 ---
 
-## 🚀 Seçenek 1: Vercel ile 2 Dakikada Yayına Alma (En Kolay)
+## � Veritabanı Hakkında (Önemli)
+
+**Müjde!** Bu proje şu anda "Dosya Tabanlı (JSON)" bir veritabanı sistemi kullanmaktadır.
+Yani verileriniz `apps/web/src/lib/data` klasöründeki dosyalarda saklanır.
+Bu sayede:
+- **Veritabanı kurulumu yapmanıza gerek yoktur.**
+- **Verileriniz kodla birlikte GitHub'a otomatik yüklenmiştir.**
+- Sunucuda ekstra bir MySQL/PostgreSQL ayarı yapmanıza gerek kalmaz.
+
+---
+
+## �🚀 Seçenek 1: Vercel ile 2 Dakikada Yayına Alma (En Kolay)
 
 Eğer Next.js projenizi en hızlı ve sorunsuz şekilde yayınlamak istiyorsanız Vercel en iyi seçenektir.
 
